@@ -1,6 +1,6 @@
-const hello = require("./hello");
-describe("My hello", () => {
+const people = require("./people");
+describe("My people", () => {
   test("works", () => {
-    expect(hello.hello()).toEqual("People Possible");
+    expect(people.people()).toEqual("People Possible");
   });
 });
